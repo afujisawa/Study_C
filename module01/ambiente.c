@@ -17,7 +17,7 @@ int main(void){
     scanf("%f", &peso);
 
     printf("Digite o seu sexo: ");
-    scanf("%1s", sexo);g
+    scanf("%1s", sexo);
     
     printf("O %s tem %i anos de idade\n", nome, idade);
     printf("Seu peso atual é de %.2fkg\n", peso);
