@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <locale.h>
 int main(void){
+    setlocale(LC_ALL, "Portuguese");
     char nome[50];
     printf("Qual é o seu nome? ");
     scanf("%49s", nome);
